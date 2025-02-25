@@ -17,7 +17,7 @@ public class Main {
         public static final int LISTPRODUCT = 2;
         public static final int BUYPRODUCT = 3;
         public static final int SELLPRODUCT = 4;
-        public static HashMap<String, Product> products;
+        public static HashMap<Integer, Product> products;
 
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
