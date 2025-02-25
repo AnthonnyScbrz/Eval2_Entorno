@@ -2,6 +2,7 @@ package add;
 
 import core.input.Input;
 import core.main.Main;
+import core.model.Product;
 import core.output.Output;
 
 
@@ -22,7 +23,7 @@ public class Add {
 
             String modifyDate="Null";
 
-            /*Main.products.put(i+1,new Main.products(UUID,reference,productUnits,registerDay,modifyDate));*/
+            Main.products.put(i+1,new Product(reference,productUnits,registerDay,modifyDate));
         }
     }
 }
