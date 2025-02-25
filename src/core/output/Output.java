@@ -26,5 +26,15 @@ public class Output {
     public static void numberOfProductRequest(){
         System.out.print("Seleccione el número de productos a dar de alta: ");
     }
+    public static void productReference(){
+        System.out.print("Ingrese la referencia del producto: ");
+    }
+    public static void numberOfProduct(){
+        System.out.print("Ingrese el número de productos a dar de alta: ");
+    }
+    public static void registerDate(){
+        System.out.print("Ingrese fecha de resgistro: ");
+    }
+
 
 }

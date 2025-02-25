@@ -11,4 +11,13 @@ public class Input {
     public static int getNumberOfProduct(){
         return values.nextInt();
     }
+    public  static String getProductReference(){
+        return values.next();
+    }
+    public static byte getNumberProductRegister(){
+        return values.nextByte();
+    }
+    public static String getRegisterDay(){
+        return values.next();
+    }
 }
