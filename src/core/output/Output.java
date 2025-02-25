@@ -23,6 +23,8 @@ public class Output {
     public static void optionRequest(){
         System.out.print("Por favor, ingrese una opción del menú: ");
     }
-
+    public static void numberOfProductRequest(){
+        System.out.print("Seleccione el número de productos a dar de alta: ");
+    }
 
 }

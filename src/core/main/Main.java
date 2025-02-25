@@ -1,5 +1,6 @@
 package core.main;
 
+import add.Add;
 import core.input.Input;
 import core.model.Product;
 import core.output.Output;
@@ -38,7 +39,7 @@ public class Main {
                 }else{
                     switch (optionMenu){
                         case ADDPRODUCT:
-
+                            addProduct();
                             break;
                         case LISTPRODUCT:
 
@@ -53,6 +54,10 @@ public class Main {
             }while(!userWantToExit);
 
 
+    }
+
+    private static void addProduct() {
+        Add.addProduct();
     }
 
     private static boolean validateRequest() {

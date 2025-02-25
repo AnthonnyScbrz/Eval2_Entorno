@@ -8,5 +8,7 @@ public class Input {
     public static int getOptionMenu(){
         return values.nextInt();
     }
-
+    public static int getNumberOfProduct(){
+        return values.nextInt();
+    }
 }
