@@ -1,0 +1,28 @@
+package core.output;
+
+public class Output {
+
+    public static void initMessage(){
+        System.out.print("""
+                
+                ***********************************************************************
+                ------------------<<-Bienvenidos a la Tienda online->>-----------------
+                ***********************************************************************
+                
+                Menú: 
+                1. Agregar Producto
+                2. Listar Producto
+                3. Comprar un Producto
+                4. Venta de Producto
+                5. Salir
+                
+                
+                """);
+    }
+
+    public static void optionRequest(){
+        System.out.print("Por favor, ingrese una opción del menú: ");
+    }
+
+
+}
