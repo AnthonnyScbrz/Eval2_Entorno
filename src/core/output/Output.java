@@ -35,6 +35,17 @@ public class Output {
     public static void registerDate(){
         System.out.print("Ingrese fecha de resgistro: ");
     }
+    public static void tableHeader(){
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------");
+        System.out.printf("| %-2s | %-20s | %-20s | %-2s | %-20s | %-2s |\n","ID","Referencia","Unidades","Fecha de registro","Fecha de modificación");
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------");
 
+    }
+    public static void tableBody(int id, String reference, byte productUnits, String registerDay, String modifyDate) {
+        System.out.printf("| %-2s | %-20s | %-20s | %-2s | %-20s | %-2s |\n", id, reference, productUnits, registerDay, modifyDate);
+    }
+    public static void tableEnds() {
+        System.out.println("------------------------------------------------------------------------------------------------------------------------");
+    }
 
 }

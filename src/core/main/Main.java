@@ -7,6 +7,8 @@ import core.output.Output;
 import core.validator.Validator;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -18,6 +20,7 @@ public class Main {
         public static final int BUYPRODUCT = 3;
         public static final int SELLPRODUCT = 4;
         public static HashMap<Integer, Product> products;
+    public static Iterator<Map.Entry<Integer, Product>> iterate;
 
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
